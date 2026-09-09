@@ -1,0 +1,5 @@
+[target.thumbv8m.main-none-eabihf]
+rustflags = [ "-C", "link-arg=-Tmemory.ld" ]
+
+[build]
+target = "thumbv8m.main-none-eabihf"
